@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "tailwindcss";
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* white text for dark mode */
+
+.dark {
+    background-color: rgb(81, 71, 71);
+    color: red;
+}
+
+.tab {
+    padding-top: 30px;
+    font-size: 25px;
+}
+
+.tab>ul>li {
+    padding-top: 10px
+}
+
+
+/* .spac {
+            margin: 1.1vh;
+        }
+        
+        .hamb {
+            padding: 8px;
+            display: none;
+        }
+        
+        .listt {
+            padding: 2vh 8vh;
+            font: bold;
+            font-size: 3vh;
+        }
+        
+        .listt>ul>li {
+            margin-top: 10px;
+        }
+        
+        .font {
+            padding: 40px;
+            font-size: 5vh;
+        }
+        
+        .Status {
+            margin: 12px;
+            margin-top: 50px; */
+
+
+/* .right {
+    display: none;
+} */
+
+
+/* 
+.right {
+    width: 25vw;
+    height: 100vh;
+    border: 2px solid red;
+}
+
+.left {
+    width: 75vw;
+    height: 100vh;
+    border: 2px solid red;
+} */
+
+
+/* .right {
+            left: 0;
+        }
+        
+        @media (max-width: 1250px) {
+            .hamb {
+                display: block;
+            }
+            .right {
+                position: absolute;
+                left: -100%;
+            }
+        } */
